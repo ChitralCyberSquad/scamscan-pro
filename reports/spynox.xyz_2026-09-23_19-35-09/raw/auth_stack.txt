@@ -1,7 +1,0 @@
-next-auth
-nextauth
-"email"
-"password"
-"session"
-document.cookie
-localStorage.setItem

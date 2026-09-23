@@ -1,0 +1,16 @@
+# Configuration (never commit real config)
+config/config.env
+config/*.env
+*.env
+
+# Reports (contain target data)
+reports/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
