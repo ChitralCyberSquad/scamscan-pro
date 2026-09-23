@@ -1,0 +1,207 @@
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║               C H I T R A L   C Y B E R   S Q U A D          ║
+║                                                              ║
+║              CYBERSECURITY EVIDENCE REPORT                   ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+┌──────────────────────────────────────────────────────────────┐
+│ REPORT IDENTIFICATION                                        │
+├──────────────────────────────────────────────────────────────┤
+│ Report ID     : CCS-98C144FB
+│ Date          : 2026-09-23
+│ Time          : 19:35:35
+│ Analyst       : ZIA AKBAR
+│ Organization  : Chitral Cyber Squad
+│ Division      : Chitral Fiberz Kott
+│ Contact       : admin@chitralcybersquad.pk
+│ Tool Version  : SCAMSCAN PRO v2.0 PRO
+│ Target Domain : spynox.xyz
+└──────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────┐
+│ EXECUTIVE SUMMARY                                            │
+├──────────────────────────────────────────────────────────────┤
+│ This report presents a comprehensive passive reconnaissance  │
+│ analysis of the target domain conducted in accordance with   │
+│ ethical cybersecurity practices. All data was collected from │
+│ publicly accessible sources. No unauthorized access,         │
+│ exploitation, or intrusion was performed.                    │
+│                                                              │
+│ Purpose: Evidence collection for abuse reporting and         │
+│ community protection as part of Chitral Fiberz Kott operations.        │
+└──────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════
+  SECTION 1: DOMAIN REGISTRATION (WHOIS)
+═══════════════════════════════════════════════════════════════
+Domain Name: SPYNOX.XYZ
+Registry Domain ID: D635581266-CNIC
+Registrar WHOIS Server: whois.hostinger.com
+Registrar URL: https://www.hostinger.com/
+Updated Date: 2026-09-01T12:52:13.0Z
+Creation Date: 2026-08-27T12:49:40.0Z
+Registry Expiry Date: 2027-08-27T23:59:59.0Z
+Registrar: HOSTINGER operations, UAB
+Registrar IANA ID: 1636
+Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Name Server: NS1.VERCEL-DNS.COM
+Name Server: NS2.VERCEL-DNS.COM
+DNSSEC: unsigned
+Registrar Abuse Contact Email: abuse@hostinger.com
+Registrar Abuse Contact Phone: +370.64503378
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2026-09-23T14:35:12.0Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+The registration data available in this service is limited. Additional
+data may be available at https://lookup.icann.org
+
+The Whois and RDAP services are provided by CentralNic, and contain
+information pertaining to Internet domain names registered by our
+our customers. By using this service you are agreeing (1) not to use any
+information presented here for any purpose other than determining
+ownership of domain names, (2) not to store or reproduce this data in
+any way, (3) not to use any high-volume, automated, electronic processes
+to obtain data from this service. Abuse of this service is monitored and
+actions in contravention of these terms will result in being permanently
+blacklisted. All data is (c) CentralNic Ltd (https://www.centralnicregistry.com)
+
+Access to the Whois and RDAP services is rate limited. For more
+information, visit https://centralnicregistry.com/policies/whois-guidance.
+
+═══════════════════════════════════════════════════════════════
+  SECTION 2: DNS RECORDS
+═══════════════════════════════════════════════════════════════
+A Records  : 64.29.17.65 216.198.79.1 
+MX Records : 
+NS Records : ns1.vercel-dns.com. ns2.vercel-dns.com. 
+
+═══════════════════════════════════════════════════════════════
+  SECTION 3: HTTP HEADERS
+═══════════════════════════════════════════════════════════════
+HTTP/2 307 
+cache-control: public, max-age=0, must-revalidate
+content-type: text/plain
+date: Wed, 23 Sep 2026 14:35:13 GMT
+location: /login?callbackUrl=%2F
+server: Vercel
+strict-transport-security: max-age=63072000
+x-vercel-id: bom1::4r5dh-1790174113744-f0c7f6362410
+
+HTTP/2 200 
+age: 0
+cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+content-type: text/html; charset=utf-8
+date: Wed, 23 Sep 2026 14:35:14 GMT
+server: Vercel
+strict-transport-security: max-age=63072000
+vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Url
+x-matched-path: /login
+x-vercel-cache: MISS
+x-vercel-id: bom1::iad1::9qtdv-1790174113878-33945164365b
+
+
+═══════════════════════════════════════════════════════════════
+  SECTION 4: SSL CERTIFICATE
+═══════════════════════════════════════════════════════════════
+issuer=C=US, O=Let's Encrypt, CN=YR1
+subject=CN=spynox.xyz
+notBefore=Aug 27 12:13:49 2026 GMT
+notAfter=Nov 25 12:13:48 2026 GMT
+
+═══════════════════════════════════════════════════════════════
+  SECTION 5: HOMEPAGE ANALYSIS
+═══════════════════════════════════════════════════════════════
+Homepage Size : 104680 bytes
+JS Bundles    : 10 files
+
+═══════════════════════════════════════════════════════════════
+  SECTION 6: API ENDPOINTS DETECTED
+═══════════════════════════════════════════════════════════════
+/api/auth
+/api/auth/signin?
+
+═══════════════════════════════════════════════════════════════
+  SECTION 7: BACKEND & THIRD-PARTY URLS
+═══════════════════════════════════════════════════════════════
+
+
+═══════════════════════════════════════════════════════════════
+  SECTION 8: AUTHENTICATION STACK
+═══════════════════════════════════════════════════════════════
+next-auth
+nextauth
+"email"
+"password"
+"session"
+document.cookie
+localStorage.setItem
+
+═══════════════════════════════════════════════════════════════
+  SECTION 9: TRACKING TOOLS
+═══════════════════════════════════════════════════════════════
+segment
+vercel-scripts
+
+═══════════════════════════════════════════════════════════════
+  SECTION 10: SOCIAL MEDIA LINKS
+═══════════════════════════════════════════════════════════════
+https://www.facebook.com/profile.php?id=100090443610189
+https://www.instagram.com/spynoxos/
+https://www.reddit.com/user/SpynoxOs/?utm_source=share&amp
+https://www.reddit.com/user/SpynoxOs/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+https://www.threads.com/
+https://www.youtube.com/embed/yk9hTwzmV2A?rel=0&amp
+https://www.youtube.com/embed/yk9hTwzmV2A?rel=0&modestbranding=1
+https://x.com/SpynoxOs
+
+═══════════════════════════════════════════════════════════════
+  SECTION 11: YOUTUBE VIDEO METADATA
+═══════════════════════════════════════════════════════════════
+--- Video ID: yk9hTwzmV2A ---
+{"title":"How to Use this Insane  and powerful tool \ud83d\udd25| Gallery eye \ud83d\udc41\ufe0f | Latest Update | ","author_name":"BLACK HAT HACKER","author_url":"https://www.youtube.com/@black_hat_h4k3r","type":"video","height":113,"width":200,"version":"1.0","provider_name":"YouTube","provider_url":"https://www.youtube.com/","thumbnail_height":360,"thumbnail_width":480,"thumbnail_url":"https://i.ytimg.com/vi/yk9hTwzmV2A/hqdefault.jpg","html":"\u003ciframe width=\u0022200\u0022 height=\u0022113\u0022 src=\u0022https://www.youtube.com/embed/yk9hTwzmV2A?feature=oembed\u0022 frameborder=\u00220\u0022 allow=\u0022accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\u0022 referrerpolicy=\u0022strict-origin-when-cross-origin\u0022 allowfullscreen title=\u0022How to Use this Insane  and powerful tool \ud83d\udd25| Gallery eye \ud83d\udc41\ufe0f | Latest Update | \u0022\u003e\u003c/iframe\u003e"}
+
+═══════════════════════════════════════════════════════════════
+  SECTION 12: WAYBACK MACHINE HISTORY
+═══════════════════════════════════════════════════════════════
+[]
+
+═══════════════════════════════════════════════════════════════
+  SECTION 13: ROBOTS.TXT & SITEMAP
+═══════════════════════════════════════════════════════════════
+robots.txt  : 15 bytes
+sitemap.xml : 15 bytes
+
+═══════════════════════════════════════════════════════════════
+  SECTION 14: STRUCTURED DATA (SEO / REVIEW SCHEMA)
+═══════════════════════════════════════════════════════════════
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Spynox Command Center","url":"https://spynox.xyz","applicationCategory":"SecurityApplication, UtilitiesApplication","operatingSystem":"Android, Web, Windows, iOS, macOS","description":"Enterprise-grade secure gallery synchronization and real-time remote device telemetry. Access encrypted photos, videos, SMS logs, contacts, and live captures instantly across all devices.","offers":{"@type":"AggregateOffer","priceCurrency":"USD","lowPrice":"0.00","highPrice":"29.99","offerCount":"3"},"author":{"@type":"Organization","name":"Spynox Security & Sync","url":"https://spynox.xyz"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","ratingCount":"1280","bestRating":"5"}}
+
+═══════════════════════════════════════════════════════════════
+  SECTION 15: HOSTING & GEOLOCATION
+═══════════════════════════════════════════════════════════════
+{
+  "ip": "64.29.17.1",
+  "city": "Walnut",
+  "region": "California",
+  "country": "US",
+  "loc": "34.0203,-117.8653",
+  "org": "AS16509 Amazon.com, Inc.",
+  "postal": "91789",
+  "timezone": "America/Los_Angeles",
+  "readme": "https://ipinfo.io/missingauth",
+  "anycast": true
+}
+
+╔══════════════════════════════════════════════════════════════╗
+║                    END OF EVIDENCE REPORT                    ║
+╠══════════════════════════════════════════════════════════════╣
+║ Report Generated by : SCAMSCAN PRO v2.0 PRO                    ║
+║ Organization        : Chitral Cyber Squad                     ║
+║ Admin               : ZIA AKBAR                             ║
+║ Contact             : admin@chitralcybersquad.pk           ║
+╚══════════════════════════════════════════════════════════════╝

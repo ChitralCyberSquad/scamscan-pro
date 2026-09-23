@@ -1,0 +1,4 @@
+issuer=C=US, O=Let's Encrypt, CN=YR1
+subject=CN=spynox.xyz
+notBefore=Aug 27 12:13:49 2026 GMT
+notAfter=Nov 25 12:13:48 2026 GMT
