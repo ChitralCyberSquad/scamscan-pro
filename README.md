@@ -64,7 +64,17 @@ Outputs:
 - Division: Chitral Fiberz Kott
 - Contact: chitralcybersquad@gmail.com
 - GitHub: https://github.com/ChitralCyberSquad
+## 📸 Screenshots
 
+### 🛡️ Tool Banner — Chitral Cyber Squad Branding
+
+![SCAMSCAN PRO Banner](screenshots/01-banner.jpg)
+
+### 🔍 Live Scan Output
+
+![SCAMSCAN PRO Scan Output](screenshots/02-scan-output.jpg)
+
+---
 ---
 
 ## ⚖️ Legal
